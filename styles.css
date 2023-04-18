@@ -1,0 +1,84 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-bottom: 20px;
+    border-left: 5px solid #333;
+    padding-left: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .section:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .section:first-child {
+    margin-top: 0;
+  }
+  
+  /* Sub-Section Styles */
+  .sub-section {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  /* Heading Styles */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  
+  li strong {
+    font-weight: bold;
+  }
+  
+  /* Select Styles */
+  select {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  select:hover {
+    background-color: #f4f4f4;
+  }
+  
