@@ -91,4 +91,29 @@
     margin-right: auto;
     display: block;
   }
-  
+
+
+  /* Job Styles */
+.job {
+  margin-bottom: 30px;
+}
+
+.job h3 {
+  margin: 0;
+}
+
+.job h4 {
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
+
+.job .date {
+  margin: 0 0 10px 0;
+  font-style: italic;
+}
+
+.job ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+  list-style: disc;
+}
