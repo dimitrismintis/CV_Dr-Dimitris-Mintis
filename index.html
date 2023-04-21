@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>CV_Dr-Dimitris-Mintis</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-nB7VJ14LHXMwrmvLZdqM+N8rXr5x5Qz7Vf5I+u8k4N4+4QwZvP6UklY6zX9Sdzt/6yv+wCmnmns6btMqbemJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
   <div class="container">
@@ -17,8 +18,17 @@
         <li><strong>Email:</strong> dimitris.g.mintis@gmail.com</li>
         <li><strong>Phone:</strong> +357 99257609 (CY), +30 6970461140 (GR), +965 96640396 (KW)</li>
         <li><strong>Nationality:</strong> Cypriot</li>
+        <button onclick="exportToPdf()">Export to PDF</button>
       </ul>
     </div>
+    <script>
+      function exportToPdf() {
+        const element = document.body;
+        html2pdf()
+          .from(element)
+          .save();
+      }
+    </script>
     <div class="section">
       <h2>Education</h2>
       <ul>
@@ -152,9 +162,10 @@
         <li>MES Software: Aspen InfoPlus.21 (Certified), Aspen HYSYS</li>
         <li>Database Management: SQL Server, MySQL, Aspen SQLplus</li>
         <li>Programming Languages: C#, Fortran, VBA</li>
-        <li>Front-End Development: HTML, CSS, Javascipt, ASP.NET, React, Git</li>
+        <li>Front-End Development: HTML, CSS, Javascipt, ASP.NET, XML, React, Git</li>
         <li>Microsoft BI stack: SSIS, SSRS, SSAS, MSBI </li>
         <li>Shell Scripting: tcsh, bash, powershell </li>
+        <li>Operating Systems: Windows, Linux, Ubuntu</li>
         <li>Automation: PLCs, HMIs, SCADA systems</li>
         <li>Other skills: Knowledge of Industry standards such as ISA95 (i.e., ISA-88, ISA-95), Industrial Protocol
           Knowledge (EtherNet/IP, DNP3, Modbus, Profinet etc), Experience of OPC UA & DA and MQTT</li>
