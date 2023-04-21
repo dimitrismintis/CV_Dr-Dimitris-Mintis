@@ -9,3 +9,11 @@ select.addEventListener("change", (event) => {
   // Log the selected value to the console
   console.log(`Selected language: ${selectedValue}`);
 });
+
+function htmlToPdf() {
+  var pdf = new jsPDF('p', 'pt', 'letter');
+  var url = 'index.html'; // Replace with the name of your HTML file
+  pdf.addHTML(document.getElementById('pdfContainer'), function() {
+    pdf.save('CV_Dr-Dimitris-Mintis.pdf');
+  });
+}
