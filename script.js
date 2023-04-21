@@ -10,7 +10,7 @@ select.addEventListener("change", (event) => {
   console.log(`Selected language: ${selectedValue}`);
 
   // Export to PDF
-  const downloadBtn = document.querySelector(".donwload-btn");
+  const downloadBtn = document.querySelector(".download-btn");
   downloadBtn.addEventListener("click", () => {
     window.print();
 });
