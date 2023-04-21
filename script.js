@@ -8,9 +8,9 @@ select.addEventListener("change", (event) => {
 
   // Log the selected value to the console
   console.log(`Selected language: ${selectedValue}`);
-});
 
-const downloadBtn = document.querySelector(".donwload-btn");
-downloadBtn.addEventListener("click", () => {
-  window.print();
+  // Export to PDF
+  const downloadBtn = document.querySelector(".donwload-btn");
+  downloadBtn.addEventListener("click", () => {
+    window.print();
 });
