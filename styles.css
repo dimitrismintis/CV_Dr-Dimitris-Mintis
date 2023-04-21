@@ -51,6 +51,11 @@
     margin-top: 0;
   }
   
+  .section:first-of-type{
+    background-color: #2d79ac;
+    color: white;
+  }
+
   /* Sub-Section Styles */
   .sub-section {
     margin-top: 10px;
