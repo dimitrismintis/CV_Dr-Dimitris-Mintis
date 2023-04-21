@@ -42,7 +42,7 @@
   
   /* Section Styles */
   .section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-left: 5px solid #333;
     padding-left: 10px;
     transition: background-color 0.5s ease;
@@ -63,7 +63,7 @@
 
   /* Sub-Section Styles */
   .sub-section {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20px;
   }
   
