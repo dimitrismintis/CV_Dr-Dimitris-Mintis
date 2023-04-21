@@ -12,6 +12,19 @@
     color: #333;
   }
   
+  /* Download Button Style */
+  .download-btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+
+  .download-btn:hover{
+    transform: translateY(+2px);
+  }
+
   /* Container Styles */
   .container {
     width: 80%;
