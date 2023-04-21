@@ -1,2 +1,2 @@
-# test-v6
+# CV template
 testing cv template
