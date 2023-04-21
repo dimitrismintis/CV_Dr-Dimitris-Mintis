@@ -10,16 +10,16 @@ select.addEventListener("change", (event) => {
   console.log(`Selected language: ${selectedValue}`);
 });
 // Export to PDF
-const downloadBtn = document.querySelector(".download-btn");
+//const downloadBtn = document.querySelector(".download-btn");
 //downloadBtn.addEventListener("click", () => {
 //window.print();
 //});
-downloadBtn.addEventListener("click", () => {
-  const doc = new jsPDF();
-  const elementHTML = document.getElementById("index.html");
-  doc.html(elementHTML, {
-    callback: function (pdf) {
-      pdf.save("CV_Dr-Dimitris-Mintis.pdf");
-    },
-  });
-});
+//downloadBtn.addEventListener("click", () => {
+//  const doc = new jsPDF();
+//  const elementHTML = document.getElementById("index.html");
+//  doc.html(elementHTML, {
+//    callback: function (pdf) {
+//      pdf.save("CV_Dr-Dimitris-Mintis.pdf");
+//    },
+//  });
+//});
