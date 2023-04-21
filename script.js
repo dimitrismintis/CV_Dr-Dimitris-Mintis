@@ -11,6 +11,15 @@ select.addEventListener("change", (event) => {
 });
 // Export to PDF
 const downloadBtn = document.querySelector(".download-btn");
+//downloadBtn.addEventListener("click", () => {
+//window.print();
+//});
 downloadBtn.addEventListener("click", () => {
-window.print();
+  const doc = new jsPDF();
+  const elementHTML = document.getElementById("index.html");
+  doc.html(elementHTML, {
+    callback: function (pdf) {
+      pdf.save("CV_Dr-Dimitris-Mintis.pdf");
+    },
+  });
 });
