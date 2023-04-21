@@ -24,11 +24,11 @@
     <script>
       function exportToPdf() {
         const element = document.body;
-        html2pdf()
-          .from(element)
-          .save();
+        html2pdf().set({ margin: 1 }).from(element).save();
       }
     </script>
+    <!-- Include the html2pdf library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <div class="section">
       <h2>Education</h2>
       <ul>
